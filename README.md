@@ -13,6 +13,9 @@ https://mini-operations-erp-a6ps.onrender.com
 ### GitHub Repository
 https://github.com/aishwaryamishra2003/mini-operations-erp
 
+### API Documentation
+https://documenter.getpostman.com/view/42865737/2sBYAvvqVf
+
 ---
 
 ## Features
