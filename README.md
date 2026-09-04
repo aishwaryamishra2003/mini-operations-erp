@@ -111,6 +111,23 @@ https://github.com/aishwaryamishra2003/mini-operations-erp
 - Inventory items can be reserved for customers.
 - Transfers and Reservations affect available inventory quantity.
 
+  ## Postman Collection
+
+Base URL:
+https://mini-operations-erp-a6ps.onrender.com/api
+
+Endpoints:
+
+POST /auth/login
+GET /inventory
+POST /inventory
+GET /workorders
+POST /workorders
+GET /transfers
+POST /transfers
+GET /reservations
+POST /reservations
+
 ## Installation
 
 ### Clone Repository
