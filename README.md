@@ -51,6 +51,66 @@ https://github.com/aishwaryamishra2003/mini-operations-erp
 
 ---
 
+## Database Schema
+
+### Users
+
+| Column | Type |
+|----------|----------|
+| id | Integer (PK) |
+| email | String |
+| password | String |
+| role | String |
+
+### Inventory
+
+| Column | Type |
+|----------|----------|
+| id | Integer (PK) |
+| itemName | String |
+| sku | String |
+| quantity | Integer |
+| location | String |
+
+### WorkOrders
+
+| Column | Type |
+|----------|----------|
+| id | Integer (PK) |
+| itemName | String |
+| location | String |
+| requiredQty | Integer |
+| shortageQty | Integer |
+| status | String |
+
+### Transfers
+
+| Column | Type |
+|----------|----------|
+| id | Integer (PK) |
+| itemName | String |
+| quantity | Integer |
+| sourceLocation | String |
+| destinationLocation | String |
+| status | String |
+
+### Reservations
+
+| Column | Type |
+|----------|----------|
+| id | Integer (PK) |
+| customerName | String |
+| itemName | String |
+| quantity | Integer |
+| status | String |
+
+### Relationships
+
+- Users create and manage Work Orders.
+- Inventory items can be transferred between locations.
+- Inventory items can be reserved for customers.
+- Transfers and Reservations affect available inventory quantity.
+
 ## Installation
 
 ### Clone Repository
