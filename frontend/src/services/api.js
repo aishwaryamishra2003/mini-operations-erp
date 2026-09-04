@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://mini-operations-erp-a6ps.onrender.com/",
+  baseURL: "https://mini-operations-erp-a6ps.onrender.com/api",
 });
 
 export default api;
